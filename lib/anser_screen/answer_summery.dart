@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/index_screen.dart';
+import 'package:quiz_app/anser_screen/index_screen.dart';
 
 class AnswerSummery extends StatelessWidget {
   AnswerSummery({super.key, required this.summery});

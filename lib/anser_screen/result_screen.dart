@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/answer_summery.dart';
+import 'package:quiz_app/anser_screen/answer_summery.dart';
 import 'package:quiz_app/data/questions.dart';
-import 'package:quiz_app/quiz.dart';
+import 'package:quiz_app/question_screen/quiz.dart';
 
 class ResultScreen extends StatelessWidget {
   ResultScreen({super.key, required this.selectedAnswers});
