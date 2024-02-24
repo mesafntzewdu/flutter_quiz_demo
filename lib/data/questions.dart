@@ -1,10 +1,10 @@
-import 'package:quiz_app/models/quiz_questions.dart';
+import 'package:quiz_app/models/quiz.dart';
 
 const questions = [
   QuizQuestion('What are the main building block of flutter',
       ['Widget', 'Component', 'Blocks', 'Functions']),
   QuizQuestion('What IDE is good for building flutter application',
-      ['Vscode', 'Android studio', 'Xcode', 'All are good']),
+      ['All are good', 'Vscode', 'Android studio', 'Xcode']),
   QuizQuestion('How should you update data inside of statefulWidget', [
     'By calling setState()',
     'by calling updateData()',
@@ -19,9 +19,9 @@ const questions = [
   ]),
   QuizQuestion(
       'Which widget should you try to use more offen:Stateless or stateful', [
+    'Both are equally good',
     'StatelessWidget',
     'StatefulWidget',
-    'Both are equally good',
     'None of the above'
   ]),
   QuizQuestion('What is the purpose of statefull widget', [
